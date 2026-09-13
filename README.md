@@ -1,8 +1,11 @@
 # Redefining Artificial Superintelligence
 
-Slides, speaker script, and the generator that builds them, for a talk given at
-the **Superintelligence Conference 2026 (SiC26)**, Day 1, Session 1 — *Defining
-and Evaluating Superintelligence* — 9 September 2026, University of Exeter.
+Slides, speaker script, and the generator that builds them, prepared for a talk
+accepted to the **Superintelligence Conference 2026 (SiC26)**, Day 1, Session 1
+— *Defining and Evaluating Superintelligence* — 9 September 2026, University of
+Exeter.
+
+The argument itself is published; see the papers below.
 
 * Programme: <https://www.superintelligenceconference.org/programme/2026>
 * Paper: *Redefining Artificial Superintelligence: From Mystified Genius to
@@ -38,7 +41,7 @@ layer that can generate new meaning and a physical layer that constrains it.
 
 | Path | |
 | --- | --- |
-| `SiC26_Sophia.pptx` | The deck as delivered (hand-finished after generation) |
+| `SiC26_Sophia.pptx` | The final deck (hand-finished after generation) |
 | `SiC26_Sophia.docx` | Speaker script — what to say, and the transition, per slide |
 | `sic26_presentation_final.md` | The outline the deck is built from |
 | `SPEC_final.md` | Deck specification and layout rules |
@@ -60,7 +63,7 @@ Nothing is written unless every readability check passes — a deck that overflo
 its own boxes is worse than no deck at all. `build.py --preview` needs Keynote
 (preferred) or LibreOffice to rasterise.
 
-Note that `build.py` reproduces the *generated* deck, not the delivered one:
+Note that `build.py` reproduces the *generated* deck, not the final one:
 slide 21's diagram was added by hand in PowerPoint and lives only in
 `SiC26_Sophia.pptx`.
 
