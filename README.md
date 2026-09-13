@@ -41,7 +41,7 @@ layer that can generate new meaning and a physical layer that constrains it.
 
 | Path | |
 | --- | --- |
-| `SiC26_Sophia.pptx` | The final deck (hand-finished after generation) |
+| `SiC26_Sophia.pptx` | The deck as delivered (hand-finished after generation) |
 | `SiC26_Sophia.docx` | Speaker script — what to say, and the transition, per slide |
 | `sic26_presentation_final.md` | The outline the deck is built from |
 | `SPEC_final.md` | Deck specification and layout rules |
@@ -63,7 +63,7 @@ Nothing is written unless every readability check passes — a deck that overflo
 its own boxes is worse than no deck at all. `build.py --preview` needs Keynote
 (preferred) or LibreOffice to rasterise.
 
-Note that `build.py` reproduces the *generated* deck, not the final one:
+Note that `build.py` reproduces the *generated* deck, not the delivered one:
 slide 21's diagram was added by hand in PowerPoint and lives only in
 `SiC26_Sophia.pptx`.
 
