@@ -329,3 +329,20 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+build/
+.venv/
+
+## Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+## SiC26 deck
+# Manuscripts under review, and preprints published on Zenodo. The deck cites
+# them by DOI; the repository does not need to redistribute them.
+*.pdf
+# The supplied PowerPoint template (43MB). The deck is drawn from scratch on a
+# blank layout, so nothing in the build reads it.
+template.pptx
+.DS_Store
